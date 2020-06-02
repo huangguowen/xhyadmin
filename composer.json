@@ -1,0 +1,21 @@
+{
+    "name": "xhyadmin/composertest",
+    "description": "xhyadmin",
+	"type": "composer",
+	"license": "MIT",
+    "authors": [
+        {
+            "name": "huangguowen",
+            "email": "1194729753@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+    	"php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "xhyframework\\": "src/"
+        }
+    }
+}
